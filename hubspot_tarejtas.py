@@ -71,7 +71,7 @@ def stress_test():
     # Set default headers for the session
     session.headers.update({
         "Content-Type": "application/json",
-        "x-api-key": "Ox679bkqkq7J5Iub9fc3L8SWDSNvqj6e8CIuQEdA",
+        "x-api-key": "",
     })
 
     try:
