@@ -10,8 +10,8 @@ urllib3.disable_warnings()  # Suppress SSL warnings for verify=False
 # Setup
 URL_TEMPLATE = "https://apisol.perfekti.mx/disp/v1/tarjetas/encolar-eventos/"
 
-CONCURRENCY = 1201
-REQUESTS_TOTAL = 12001
+CONCURRENCY = 12
+REQUESTS_TOTAL = 120
 
 fake = Faker()
 
