@@ -12,8 +12,8 @@ urllib3.disable_warnings()  # Suppress SSL warnings for verify=False
 URL_TEMPLATE = (
     "https://solbackend.vexi.mx/v1/solicitud/login/{email}/?inbox=false"
 )
-CONCURRENCY = 200
-REQUESTS_TOTAL = 21200
+CONCURRENCY = 1
+REQUESTS_TOTAL = 212
 
 fake = Faker()
 
