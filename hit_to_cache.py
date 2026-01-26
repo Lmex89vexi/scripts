@@ -2,6 +2,8 @@ import requests
 import time
 from loguru import logger
 
+#test
+
 # Configure loguru with local timezone and custom format
 logger.remove()  # Remove default handler
 logger.add(
