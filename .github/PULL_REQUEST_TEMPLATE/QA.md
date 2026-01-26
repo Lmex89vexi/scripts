@@ -19,5 +19,3 @@
 - [ ] SonarQube: 0 issues críticas/bloqueantes y menos de 10 issues totales en QA.
 - [ ] No existen conflictos de merge con la rama destino.
 - [ ] No existen conflictos de merge con la rama destino.
-
-# Última actualización: Mon Jan 26 16:18:19 CST 2026
