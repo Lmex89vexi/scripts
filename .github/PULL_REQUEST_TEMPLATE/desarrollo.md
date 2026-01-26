@@ -1,6 +1,7 @@
 # Pull Request Checklist (OBLIGATORIO)
 
 ## 🔐 Seguridad y Calidad
+
 - [ ] No hay logs con información sensible (RFC, CURP, tokens, headers completos, payloads crudos).
 - [ ] No hay secretos hardcodeados (API keys, passwords, tokens, certificados).
 - [ ] Los secretos se obtienen vía variables de entorno o secret manager.
