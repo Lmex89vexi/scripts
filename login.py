@@ -4,6 +4,7 @@ import time
 from faker import Faker
 import functools
 import urllib3
+from loguru import logger
 
 urllib3.disable_warnings()  # Suppress SSL warnings for verify=False
 
