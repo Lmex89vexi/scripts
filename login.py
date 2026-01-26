@@ -4,6 +4,7 @@ import time
 from faker import Faker
 import functools
 import urllib3
+from loguru import logger
 
 urllib3.disable_warnings()  # Suppress SSL warnings for verify=False
 
@@ -11,8 +12,9 @@ urllib3.disable_warnings()  # Suppress SSL warnings for verify=False
 URL_TEMPLATE = (
     "https://solbackend.vexi.mx/v1/solicitud/login/{email}/?inbox=false"
 )
-CONCURRENCY = 5
+CONCURRENCY = 1
 REQUESTS_TOTAL = 200
+
 
 fake = Faker()
 
